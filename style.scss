@@ -57,8 +57,8 @@ section{
 
 @font-face {
     font-family: 'Futura LT';
-    src: url('../fonts/FuturaLT-Bold.woff2') format('woff2'),
-        url('../fonts/FuturaLT-Bold.woff') format('woff');
+    src: url('https://dyson-netizens.netlify.app/fonts/FuturaLT-Bold.woff2') format('woff2'),
+        url('https://dyson-netizens.netlify.app/fonts/FuturaLT-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -66,8 +66,8 @@ section{
 
 @font-face {
     font-family: 'Futura LT';
-    src: url('../fonts/FuturaLT.woff2') format('woff2'),
-        url('../fonts/FuturaLT.woff') format('woff');
+    src: url('https://dyson-netizens.netlify.app/fonts/FuturaLT-Bold.woff2') format('woff2'),
+        url('https://dyson-netizens.netlify.app/fonts/FuturaLT.woff') format('woff');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
