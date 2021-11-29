@@ -57,21 +57,20 @@ section{
 
 @font-face {
     font-family: 'Futura LT';
-    src: url('https://dyson-netizens.netlify.app/fonts/FuturaLT-Bold.woff2') format('woff2'),
-        url('https://dyson-netizens.netlify.app/fonts/FuturaLT-Bold.woff') format('woff');
+    src: url("https://cdn.jsdelivr.net/gh/NetHir-De/dyson/fonts/FuturaLT-Bold.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/NetHir-De/dyson/fonts/FuturaLT-Bold.woff") format("woff");
     font-weight: bold;
     font-style: normal;
     font-display: swap;
-}
-
-@font-face {
+  }
+  
+  @font-face {
     font-family: 'Futura LT';
-    src: url('https://dyson-netizens.netlify.app/fonts/FuturaLT-Bold.woff2') format('woff2'),
-        url('https://dyson-netizens.netlify.app/fonts/FuturaLT.woff') format('woff');
+    src: url("https://cdn.jsdelivr.net/gh/NetHir-De/dyson/fonts/FuturaLT-Bold.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/NetHir-De/dyson/fonts/FuturaLT.woff") format("woff");
     font-weight: 400;
     font-style: normal;
     font-display: swap;
-}
+  }
+  
 
 h2{
     font-weight: bold;
@@ -232,7 +231,7 @@ p{
 .product_wrapper{
     margin: 0;
     padding: 75px 0;
-    background-image: url(../images/background.png);
+    background-image: url(https://dyson-netizens.netlify.app/images/background.png);
     background-size: cover;
     @media screen and (max-width:1380px) {
         padding: 60px 0;
@@ -537,7 +536,7 @@ p{
                         font-family:$Futura-Regular;color: #888888;
                     }
                     select{
-                        background-image:url(images/dropdown.png);
+                        background-image:url(https://dyson-netizens.netlify.app/images/dropdown.png);
                         background-repeat: no-repeat;
                         background-position: right 20px center;
                         color: #888888;          
@@ -573,7 +572,7 @@ p{
                                 border:1px solid #707070;                    
                             }
                             &:checked[type=checkbox] {
-                                background-image: url(../images/right.svg);
+                                background-image: url(https://dyson-netizens.netlify.app/images/right.svg);
                                 background-color: #707070;
                             }
                         }
@@ -828,7 +827,7 @@ footer{
 	&::before {
 		content: '';
 		position: absolute;
-		background: url(images/banner-img.png);
+		background: url(https://dyson-netizens.netlify.app/images/banner-img.png);
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center;
