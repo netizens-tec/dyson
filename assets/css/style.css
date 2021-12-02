@@ -915,6 +915,10 @@ input:-webkit-autofill:active {
   }
 }
 
+.hygine_block .text-1 .col-6 .left p {
+  max-width: 550px;
+}
+
 /* HYGINE BLOCK CSS END'S HERE */
 /* CLEANING BLOCK CSS STARTS HERE */
 .cleaning_block {

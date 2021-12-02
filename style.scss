@@ -739,6 +739,9 @@ input:-webkit-autofill:active{
                         line-height: 38px !important;
                     }
                 }
+                p{
+                    max-width: 550px;
+                }
             }
         }
     }
