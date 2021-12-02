@@ -690,6 +690,13 @@ p {
   padding: 0;
 }
 
+@media screen and (max-width: 420px) {
+  .product_wrapper .product_block .form_wrapper .form_block .form-group .form-check .form-check-input {
+    width: 30px;
+    height: 20px;
+  }
+}
+
 .product_wrapper .product_block .form_wrapper .form_block .form-group .form-check .form-check-input:focus {
   border: 1px solid #707070;
 }
