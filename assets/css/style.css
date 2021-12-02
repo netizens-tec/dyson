@@ -901,7 +901,7 @@ input:-webkit-autofill:active {
   width: 33.33%;
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (min-width: 320px) {
   .hygine_block .text-1 .col-6 {
     flex: 0 0 100%;
     min-width: 100%;
