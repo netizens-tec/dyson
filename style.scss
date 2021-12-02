@@ -727,11 +727,17 @@ input:-webkit-autofill:active{
             flex: 0.33.33;
             width: 33.33%;
         }
-        .left{
-            h2{
-                @media screen and (min-width:992px) and (max-width:1140px) {
-                    font-size: 30px !important;
-                    line-height: 38px !important;
+        .col-6{
+            @media screen and (max-width:991px) {
+                flex: 0 0 100%;
+                min-width: 100%;
+            }
+            .left{
+                h2{
+                    @media screen and (min-width:992px) and (max-width:1140px) {
+                        font-size: 30px !important;
+                        line-height: 38px !important;
+                    }
                 }
             }
         }
