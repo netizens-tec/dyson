@@ -628,7 +628,7 @@ input:-webkit-autofill:active {
 }
 
 .product_wrapper .product_block .form_wrapper .form_block .form-group input:focus, .product_wrapper .product_block .form_wrapper .form_block .form-group textarea:focus, .product_wrapper .product_block .form_wrapper .form_block .form-group select:focus {
-  border: 1px solid #05060a;
+  border: 1px solid #000000;
 }
 
 .product_wrapper .product_block .form_wrapper .form_block .form-group input::-webkit-outer-spin-button, .product_wrapper .product_block .form_wrapper .form_block .form-group input::-webkit-inner-spin-button, .product_wrapper .product_block .form_wrapper .form_block .form-group textarea::-webkit-outer-spin-button, .product_wrapper .product_block .form_wrapper .form_block .form-group textarea::-webkit-inner-spin-button, .product_wrapper .product_block .form_wrapper .form_block .form-group select::-webkit-outer-spin-button, .product_wrapper .product_block .form_wrapper .form_block .form-group select::-webkit-inner-spin-button {
