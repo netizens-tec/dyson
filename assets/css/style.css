@@ -955,6 +955,8 @@ input:-webkit-autofill:active {
     top: 0;
     transform: none;
     text-align: center;
+    flex: 0 0 100%;
+    min-width: 100%;
   }
 }
 
